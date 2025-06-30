@@ -4,23 +4,16 @@ using BlogManagementSystem.Application.Interfaces;
 using BlogManagementSystem.Domain.Entities;
 using BlogManagementSystem.Persistence.Contexts;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BlogManagementSystem.Infrastructure.Services
 {
     public class BlogService : IBlogService
     {
         private readonly AppDbContext _context;
-        private readonly IMapper _mapper;
 
-        public BlogService(AppDbContext context, IMapper mapper)
+        public BlogService(AppDbContext context)
         {
             _context = context;
-            _mapper = mapper;
         }
 
         public async Task<Guid> CreateAsync(BlogCreateDto dto, Guid userId)

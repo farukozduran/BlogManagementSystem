@@ -16,6 +16,7 @@ namespace BlogManagementSystem.Infrastructure
 
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IBlogService, BlogService>();
+            services.AddScoped<ICategoryService, CategoryService>();
 
             return services;
         }
