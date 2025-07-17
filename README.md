@@ -33,7 +33,20 @@ A full-featured Blog Management System built with ASP.NET Core and Entity Framew
 
 ## 📂 Project Structure
 
-<pre> ``` 📁 BlogManagementSystem ├── BlogManagementSystem.API → API Layer (Controllers, Swagger setup) ├── BlogManagementSystem.Application → Business Logic (DTOs, Interfaces, Services) ├── BlogManagementSystem.Domain → Domain Models (Entities, Enums) ├── BlogManagementSystem.Infrastructure → JWT, Logging, Configurations └── BlogManagementSystem.Persistence → EF Core DbContext, Repositories, Migrations ``` </pre>
+```
+📁 BlogManagementSystem
+├── 📁 BlogManagementSystem.API
+│   └── API Layer (Controllers, Swagger setup)
+├── 📁 BlogManagementSystem.Application
+│   └── Business Logic (DTOs, Interfaces, Services)
+├── 📁 BlogManagementSystem.Domain
+│   └── Domain Models (Entities, Enums)
+├── 📁 BlogManagementSystem.Infrastructure
+│   └── JWT, Logging, Configurations
+└── 📁 BlogManagementSystem.Persistence
+    └── EF Core DbContext, Repositories, Migrations
+```
+
 
 ---
 
@@ -83,13 +96,19 @@ ASP.NET Core ve Entity Framework Core ile geliştirilen tam özellikli bir Blog 
 
 ## 📂 Proje Yapısı
 
-BlogManagementSystem
-│
-├── BlogManagementSystem.API → API Katmanı (Controller, Swagger)
-├── BlogManagementSystem.Application → İş Katmanı (DTO, Servisler, Arayüzler)
-├── BlogManagementSystem.Domain → Temel Model ve Enums
-├── BlogManagementSystem.Infrastructure→ JWT, Logging, Yapılandırmalar
-├── BlogManagementSystem.Persistence → EF Core DbContext, Repository ve Migration
+```
+📁 BlogManagementSystem
+├── 📁 BlogManagementSystem.API
+│   └── API Layer (Controllers, Swagger setup)
+├── 📁 BlogManagementSystem.Application
+│   └── Business Katmanı (DTOs, Interfaceler, Servisler)
+├── 📁 BlogManagementSystem.Domain
+│   └── Modeller (Entityler, Enums)
+├── 📁 BlogManagementSystem.Infrastructure
+│   └── JWT, Logging, Configurations
+└── 📁 BlogManagementSystem.Persistence
+    └── EF Core DbContext, Repositories, Migrations
+```
 
 
 ---
